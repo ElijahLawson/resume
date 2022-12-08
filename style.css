@@ -1,0 +1,24 @@
+.name { grid-area: name; }
+.contact { grid-area: contact; }
+.skills {grid-area: skills; }
+.objective {grid-area: objective; }
+.education {grid-area: education; }
+.experience {grid-area: experience; }
+.activities {grid-area: activities}
+
+.grid-container {display: grid;
+  grid-template-areas: 
+    'name name name name name contact'
+    'objective objective objective objective objective objective'
+    'education education education education education skills'
+    'experience experience experience experience experience skills'
+    'activities activities activities activities activities activities';
+  gap: 10px;
+  padding: 10px 0;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.right { float: right; }
+
+.left { float: left; }
